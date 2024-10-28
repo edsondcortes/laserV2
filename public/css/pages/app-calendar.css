@@ -1,0 +1,54 @@
+/*----------------------------------------
+  Calendar App
+------------------------------------------*/
+/*----------------------------------------
+  Available Layout type names
+-----------------------------------------*/
+/*
+ 1. vertical-modern-menu-template
+ 2. vertical-menu-nav-dark-template
+ 3. vertical-gradient-menu-template
+ 4. vertical-dark-menu-template
+ 5. horizontal-menu-template
+
+/* Need to change Layout name as per your requirement on below mentioned line.*/
+/*
+1. @import "../themes/vertical-gradient-menu-template/variables";
+2. @import "../themes/vertical-gradient-menu-template/theme-variables";
+*/
+.fc .fc-event {
+  background: #29b6f6;
+  color: #fff;
+  border: none;
+  padding: 4px 7px;
+}
+.fc .fc-button {
+  background: #03a9f4 !important;
+  color: #fff !important;
+  text-shadow: none;
+  border-radius: 2px;
+  border-color: #03a9f4 !important;
+  height: auto;
+  padding: 10px;
+}
+.fc .fc-button-primary:not(:disabled).fc-button-active:focus,
+.fc .fc-button-primary:not(:disabled):active:focus,
+.fc .fc-button-primary:focus {
+  box-shadow: none;
+}
+.fc .fc-content-skeleton tr {
+  border-bottom: none;
+}
+.fc td.fc-day {
+  border-width: 1px !important;
+}
+
+.fc-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fc-left,
+.fc-center, .fc-right {
+  margin-bottom: 0.5rem;
+}

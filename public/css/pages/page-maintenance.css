@@ -1,0 +1,38 @@
+/*----------------------------------------
+    Maintenance
+------------------------------------------*/
+/*----------------------------------------
+  Available Layout type names
+-----------------------------------------*/
+/*
+ 1. vertical-modern-menu-template
+ 2. vertical-menu-nav-dark-template
+ 3. vertical-gradient-menu-template
+ 4. vertical-dark-menu-template
+ 5. horizontal-menu-template
+
+/* Need to change Layout name as per your requirement on below mentioned line.*/
+/*
+1. @import "../themes/vertical-gradient-menu-template/variables";
+2. @import "../themes/vertical-gradient-menu-template/theme-variables";
+*/
+.section-maintenance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  height: 100vh;
+  overflow: hidden;
+}
+.section-maintenance #maintenance h6 {
+  line-height: 1.7rem;
+}
+.section-maintenance #maintenance .maintenance-img {
+  width: 35%;
+}
+
+@media screen and (max-width: 540px) {
+  .section.section-maintenance .error-code {
+    font-size: 2rem !important;
+  }
+}

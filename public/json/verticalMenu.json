@@ -1,0 +1,164 @@
+{
+    "menu": [
+        {
+            "url": "/",
+            "name": "home",
+            "i18n": "home",
+            "class": "waves-effect waves-cyan",
+            "icon": "dashboard",
+            "slug": "home",
+            "tagcustom": "new badge pill pink accent-2 float-right mr-2",
+            "permission" : ""
+        },
+        {
+            "url": "orcamento",
+            "name": "orcamento",
+            "i18n": "orcamento",
+            "class": "waves-effect waves-cyan",
+            "icon": "find_in_page",
+            "slug": "orcamento",
+            "tagcustom": "new badge pill pink accent-2 float-right mr-2",
+            "permission" : "orcamento-create"
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "produce",
+            "i18n": "produce",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "icon": "format_list_bulleted",
+            "slug": "edition",
+            "tagcustom": "badge pill orange float-right mr-10",
+            "permission" : "requests-locate",
+            "submenu":[
+                {
+                    "url": "edition",
+                    "name": "Edição",
+                    "i18n": "edition",
+                    "slug": "edition",
+                    "permission": "requests-edition"
+                },
+                {
+                    "url": "engraving",
+                    "name": "Gravação",
+                    "i18n": "engraving",
+                    "slug": "engraving",
+                    "permission": "requests-engraving"
+                },
+                {
+                    "url": "locate",
+                    "name": "Localizar",
+                    "i18n": "locate",
+                    "slug": "locate",
+                    "permission": "requests-locate"
+                }
+            ]
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "hotel",
+            "i18n": "hotel",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "icon": "domain",
+            "slug": "hotel",
+            "tagcustom": "badge pill orange float-right mr-10",
+            "permission" : "hotel-list",
+            "submenu":[
+                {
+                    "url": "hotel/create",
+                    "name": "Cadastro de Hotel",
+                    "i18n": "hotel/create",
+                    "slug": "hotel/create",
+                    "permission": "hotel-create"
+                },
+                {
+                    "url": "hotel",
+                    "name": "Lista de Hotéis",
+                    "i18n": "hotel",
+                    "slug": "hotel",
+                    "permission": "hotel-list"
+                }
+            ]
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "users",
+            "i18n": "users",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "users",
+            "icon": "group",
+            "tagcustom": "badge pill orange float-right mr-10",
+            "permission" : "user-list",
+            "submenu": [
+                {
+                    "url": "usuarios",
+                    "name": "list",
+                    "i18n": "list",
+                    "slug": "list",
+                    "permission" : "user-list"
+                },
+                {
+                    "url": "register",
+                    "name": "register",
+                    "i18n": "register",
+                    "slug": "register",
+                    "permission" : "user-create"
+                }
+            ]
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "access-level",
+            "i18n": "access-level",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "access-level",
+            "icon": "group_add",
+            "tagcustom": "badge pill orange float-right mr-10",
+            "permission" : "role-list",
+            "submenu": [
+                {
+                    "url": "role",
+                    "name": "list",
+                    "i18n": "list",
+                    "slug": "list",
+                    "permission" : "role-list"
+                }
+            ]
+        },
+        {
+            "url": "printer/create",
+            "name": "printer",
+            "i18n": "printer/create",
+            "class": "waves-effect waves-cyan",
+            "icon": "local_printshop",
+            "slug": "printer/create",
+            "tagcustom": "new badge pill pink accent-2 float-right mr-2",
+            "permission": "printers"
+        },
+        {
+            "url": "javascript:void(0)",
+            "name": "report",
+            "i18n": "report",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "report",
+            "icon": "note",
+            "tagcustom": "badge pill orange float-right mr-10",
+            "permission" : "report-search",
+            "submenu": [
+                {
+                    "url": "report",
+                    "name": "registered-budgets",
+                    "i18n": "report",
+                    "slug": "report",
+                    "permission" : ""
+                },
+                {
+                    "url": "report/sla",
+                    "name": "performance-report",
+                    "i18n": "report/sla",
+                    "slug": "report/sla",
+                    "permission" : ""
+                }
+            ]
+        }
+    ]
+}

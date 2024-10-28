@@ -1,0 +1,90 @@
+/*----------------------------------------
+  Available Layout type names
+-----------------------------------------*/
+/*
+ 1. vertical-modern-menu-template
+ 2. vertical-menu-nav-dark-template
+ 3. vertical-gradient-menu-template
+ 4. vertical-dark-menu-template
+ 5. horizontal-menu-template
+
+/* Need to change Layout name as per your requirement on below mentioned line.*/
+/*
+1. @import "../themes/vertical-gradient-menu-template/variables";
+2. @import "../themes/vertical-gradient-menu-template/theme-variables";
+*/
+/*  Account setting */
+/*-----------------*/
+.tabs-vertical {
+  /* tabs*/
+  /* hide default indicator*/
+  /*input file hide */
+}
+.tabs-vertical .media-body {
+  /*media body in general tab*/
+  flex-grow: 1;
+  padding: 0 25px;
+}
+.tabs-vertical .tabs {
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  background-color: transparent;
+  justify-content: flex-start;
+  border-radius: 4px;
+}
+.tabs-vertical .tabs .tab {
+  /* tab inside tabs*/
+  width: 100%;
+  text-align: start;
+}
+.tabs-vertical .tabs .tab a {
+  transition: none !important;
+  color: #6B6F82;
+}
+.tabs-vertical .tabs .tab a:hover {
+  color: #6B6F82 !important;
+}
+.tabs-vertical .tabs .tab a.active {
+  background-color: #fce4ec !important;
+  color: #e91e63 !important;
+  border-radius: 4px;
+}
+.tabs-vertical .tabs .tab a.active:hover {
+  color: #ff4081 !important;
+}
+.tabs-vertical .tabs .tab a i {
+  /* icons */
+  position: relative;
+  top: 7px;
+  margin-right: 0.2rem;
+}
+.tabs-vertical .tabs .tab:hover {
+  background-color: #eeeeee;
+}
+.tabs-vertical .indicator {
+  display: none;
+}
+.tabs-vertical .upfilewrapper {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  /* all submit and cancel button alignmet change*/
+  .media-body .general-action-btn {
+    display: flex;
+    flex-direction: column;
+  }
+  .media-body .general-action-btn .btn {
+    margin-bottom: 1rem;
+  }
+
+  .form-action {
+    flex-direction: column;
+  }
+  .form-action .btn {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,68 @@
+/*----------------------------------------
+    Blog
+------------------------------------------*/
+/*----------------------------------------
+  Available Layout type names
+-----------------------------------------*/
+/*
+ 1. vertical-modern-menu-template
+ 2. vertical-menu-nav-dark-template
+ 3. vertical-gradient-menu-template
+ 4. vertical-dark-menu-template
+ 5. horizontal-menu-template
+
+/* Need to change Layout name as per your requirement on below mentioned line.*/
+/*
+1. @import "../themes/vertical-gradient-menu-template/variables";
+2. @import "../themes/vertical-gradient-menu-template/theme-variables";
+*/
+.vertical-align-top {
+  vertical-align: top;
+}
+
+.card-animation-1,
+.image-n-margin {
+  margin-top: -50px;
+  /* Safari */
+  transition: 0.5s;
+}
+
+.card-animation-1:hover .image-n-margin {
+  margin-top: -80px;
+  margin-bottom: 30px;
+  /* Safari */
+  transition: 0.5s;
+}
+
+#blog-list .card.horizontal {
+  overflow: hidden;
+  max-height: 200px;
+}
+#blog-list .social-icon {
+  width: 7.5rem;
+}
+#blog-list .social-icon .material-icons:hover {
+  cursor: pointer !important;
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  #blog-list .social-icon {
+    display: inline-flex;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #blog-list .card-panel .mt-3.social-icon {
+    margin-top: 2% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  #blog-list .card-panel .mt-3.social-icon {
+    margin-top: 1% !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  #blog-list {
+    margin-top: 3rem;
+  }
+}

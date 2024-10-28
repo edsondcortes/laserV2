@@ -1,0 +1,105 @@
+
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 5.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+@import "sweetalert2/dist/sweetalert2.min.css";
+
+.swal2-popup .select-wrapper{
+    display: none;
+}
+
+.box-icon-btn{
+    border-radius: 10% !important;
+}
+
+.search-element{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pagination-center{
+    text-align: center;
+    float: inherit;
+}
+
+.inline-form{
+    display: inline-flex;
+}
+
+.form-button-icon{
+    border: none;
+    background-color: #0000;
+}
+
+.form-button-icon:focus{
+    background-color: #0000;
+}
+
+@media (max-width: 991px) {
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+.inline-form{
+    display: inline-flex;
+}
+
+.form-button-icon{
+    border: none;
+    background-color: #0000;
+}
+
+.form-button-icon:focus{
+    background-color: #0000;
+}
+
+.colorlabel{
+    color: #000000 !important;
+    border-bottom-width: 1px !important;
+    border-bottom-style: solid !important;
+}
+
+.align-label{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.font-label{
+    font-size: 1.7em;
+}
+
+.margin-checkbox{
+    margin: 0 25px;
+}
+
+.hide-delivery{
+    display: none;
+}
+
+.align-button{
+    font-size: 1.3rem;
+    color: #000000;
+}

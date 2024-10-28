@@ -1,0 +1,22 @@
+/*extra componets treeview*/
+/*-----------------------*/
+/*----------------------------------------
+  Available Layout type names
+-----------------------------------------*/
+/*
+ 1. vertical-modern-menu-template
+ 2. vertical-menu-nav-dark-template
+ 3. vertical-gradient-menu-template
+ 4. vertical-dark-menu-template
+ 5. horizontal-menu-template
+
+/* Need to change Layout name as per your requirement on below mentioned line.*/
+/*
+1. @import "../themes/vertical-gradient-menu-template/variables";
+2. @import "../themes/vertical-gradient-menu-template/theme-variables";
+*/
+.treeview-wrapper .jstree-default {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 1rem;
+}

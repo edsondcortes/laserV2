@@ -1,0 +1,795 @@
+{
+  "menu": [
+    {
+      "url": "javascript:void(0)",
+      "i18n": "Dashboard",
+      "name": "Dashboard",
+      "slug": "dashboard",
+      "activate": "DashboardDropdown",
+      "icon": "dashboard",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "modern",
+          "i18n": "Modern",
+          "name": "Modern",
+          "slug": "modern"
+        },
+        {
+          "url": "ecommerce",
+          "i18n": "eCommerce",
+          "name": "eCommerce",
+          "slug": "ecommerce"
+        },
+        {
+          "url": "analytics",
+          "i18n": "Analytics",
+          "name": "Analytics",
+          "slug": "analytics"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "i18n": "Templates",
+      "name": "Templates",
+      "slug": "dashboard",
+      "activate": "TemplatesDropdown",
+      "icon": "dvr",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "https://www.pixinvent.com/materialize-material-design-admin-template/laravel/demo-1/",
+          "i18n": "Modern Menu",
+          "name": "Modern Menu",
+          "slug": "vertical-modern-menu-template"
+        },
+        {
+          "url": "https://www.pixinvent.com/materialize-material-design-admin-template/laravel/demo-2/",
+          "i18n": "Navbar Dark",
+          "name": "Navbar Dark",
+          "slug": "vertical-menu-nav-dark-template"
+        },
+        {
+          "url": "https://www.pixinvent.com/materialize-material-design-admin-template/laravel/demo-3/",
+          "i18n": "Gradient Menu",
+          "name": "Gradient Menu",
+          "slug": "vertical-gradient-menu-template"
+        },
+        {
+          "url": "https://www.pixinvent.com/materialize-material-design-admin-template/laravel/demo-4/",
+          "i18n": "Dark Menu",
+          "name": "Dark Menu",
+          "slug": "vertical-gradient-menu-template"
+        },
+        {
+          "url": "https://www.pixinvent.com/materialize-material-design-admin-template/laravel/demo-5/",
+          "i18n": "Horizontal Menu",
+          "name": "Horizontal Menu",
+          "slug": "horizontal-classic-menu-template"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "i18n": "Apps",
+      "name": "Apps",
+      "slug": "apps",
+      "activate": "AppsDropdown",
+      "icon": "mail_outline",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "app-email",
+          "i18n": "Mail",
+          "name": "Mail",
+          "slug": "app-email"
+        },
+        {
+          "url": "app-chat",
+          "i18n": "Chat",
+          "name": "Chat",
+          "slug": "app-chat"
+        },
+        {
+          "url": "app-todo",
+          "i18n": "ToDo",
+          "name": "ToDo",
+          "slug": "app-todo"
+        },
+        {
+          "url": "app-contacts",
+          "i18n": "Contacts",
+          "name": "Contacts",
+          "slug": "app-contacts"
+        },
+        {
+          "url": "app-calendar",
+          "i18n": "Calendar",
+          "name": "Calendar",
+          "slug": "app-calendar"
+        },
+        {
+          "url": "app-kanban",
+          "name": "Kanban",
+          "i18n": "Kanban",
+          "slug": "app-kanban"
+        },
+        {
+          "url": "app-file-manager",
+          "name": "File manager",
+          "i18n": "File Manager",
+          "slug": "app-file-manager"
+        },
+        {
+          "url": "javascript:void(0)",
+          "name": "Invoice",
+          "i18n": "Invoice",
+          "slug": "invoice",
+          "icon": "chevron_right",
+          "activate": "invoiceDropdown",
+          "dropdown": "1",
+          "submenu": [
+            {
+              "url": "app-invoice-list",
+              "name": "Invoice List",
+              "i18n": "Invoice List",
+              "slug": "app-invoice-list"
+            },
+            {
+              "url": "app-invoice-view",
+              "name": "Invoice View",
+              "i18n": "Invoice View",
+              "slug": "app-invoice-view"
+            },
+            {
+              "url": "app-invoice-edit",
+              "name": "Invoice Edit",
+              "i18n": "Invoice Edit",
+              "slug": "app-invoice-edit"
+            },
+            {
+              "url": "app-invoice-add",
+              "name": "Invoice Add",
+              "i18n": "Invoice Add",
+              "slug": "app-invoice-add"
+            }
+          ]
+        },
+        {
+          "url": "javascript:void(0)",
+          "name": "eCommerce",
+          "i18n": "eCommerce",
+          "slug": "eCommerce",
+          "icon": "chevron_right",
+          "activate": "eCommerceDropdown",
+          "dropdown": "1",
+          "submenu": [
+            {
+              "url": "eCommerce-products-page",
+              "i18n": "Products Page",
+              "name": "Products Page",
+              "slug": "eCommerce-products-page"
+            },
+            {
+              "url": "eCommerce-pricing",
+              "i18n": "Pricing",
+              "name": "Pricing",
+              "slug": "eCommerce-pricing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "i18n": "Pages",
+      "name": "Pages",
+      "activate": "PageDropdown",
+      "slug": "pages",
+      "icon": "content_paste",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "page-contact",
+          "i18n": "Contact",
+          "name": "Contact",
+          "slug": "page-contact"
+        },
+        {
+          "url": "page-blog-list",
+          "i18n": "Blog",
+          "name": "Blog",
+          "slug": "page-blog-list"
+        },
+        {
+          "url": "page-search",
+          "i18n": "Search",
+          "name": "Search",
+          "slug": "page-search"
+        },
+        {
+          "url": "page-knowledge",
+          "i18n": "Knowledge",
+          "name": "Knowledge",
+          "slug": "page-knowledge"
+        },
+        {
+          "url": "page-timeline",
+          "name": "Timeline",
+          "i18n": "Timeline",
+          "slug": "page-timeline"
+        },
+        {
+          "url": "page-faq",
+          "i18n": "FAQs",
+          "name": "FAQs",
+          "slug": "page-faq"
+        },
+        {
+          "url": "page-blank",
+          "i18n": "Page Blank",
+          "name": "Page Blank",
+          "slug": "page-blank"
+        },
+        {
+          "url": "user-profile-page",
+          "i18n": "User Profile",
+          "name": "User Profile",
+          "slug": "user-profile-page"
+        },
+        {
+          "url": "javascript:void(0)",
+          "name": "User",
+          "i18n": "User",
+          "slug": "User",
+          "icon": "chevron_right",
+          "activate": "userDropdown",
+          "dropdown": "1",
+          "submenu": [
+            {
+              "url": "page-users-list",
+              "name": "List",
+              "i18n": "List",
+              "slug": "users-list"
+            },
+            {
+              "url": "page-users-view",
+              "name": "View",
+              "i18n": "View",
+              "slug": "users-view"
+            },
+            {
+              "url": "page-users-edit",
+              "name": "Edit",
+              "i18n": "Edit",
+              "slug": "users-edit"
+            }
+          ]
+        },
+        {
+          "url": "javascript:void(0)",
+          "name": "Medias",
+          "i18n": "Medias",
+          "slug": "medias",
+          "icon": "chevron_right",
+          "activate": "mediasDropdown",
+          "dropdown": "1",
+          "submenu": [
+            {
+              "url": "media-gallery-page",
+              "name": "Gallery Page",
+              "i18n": "Gallery Page",
+              "slug": "media-gallery-page"
+            },
+            {
+              "url": "media-hover-effects",
+              "name": "Media Hover Effects",
+              "i18n": "Media Hover Effects",
+              "slug": "media-hover-effects"
+            }
+          ]
+        },
+        {
+          "url": "javascript:void(0)",
+          "name": "Authentication",
+          "i18n": "Authentication",
+          "slug": "authentication",
+          "icon": "chevron_right",
+          "activate": "authDropdown",
+          "dropdown": "1",
+          "submenu": [
+            {
+              "url": "user-login",
+              "i18n": "Login",
+              "name": "Login",
+              "slug": "user-login",
+              "newTab": "_blank"
+            },
+            {
+              "url": "user-register",
+              "i18n": "Register",
+              "name": "Register",
+              "slug": "user-register",
+              "newTab": "_blank"
+            },
+            {
+              "url": "user-forgot-password",
+              "i18n": "Forgot Password",
+              "name": "Forgot Password",
+              "slug": "user-forgot-password",
+              "newTab": "_blank"
+            },
+            {
+              "url": "user-lock-screen",
+              "i18n": "Lock Screen",
+              "name": "Lock Screen",
+              "slug": "user-lock-screen",
+              "newTab": "_blank"
+            }
+          ]
+        },
+        {
+          "url": "javascript:void(0)",
+          "name": "Misc",
+          "i18n": "Misc",
+          "slug": "misc",
+          "icon": "chevron_right",
+          "activate": "miscDropdown",
+          "dropdown": "1",
+          "submenu": [
+            {
+              "url": "page-404",
+              "i18n": "404",
+              "name": "404",
+              "slug": "page-404",
+              "newTab": "_blank"
+            },
+            {
+              "url": "page-500",
+              "i18n": "500",
+              "name": "500",
+              "slug": "page-505",
+              "newTab": "_blank"
+            },
+            {
+              "url": "page-maintenance",
+              "i18n": "Page Maintenanace",
+              "name": "Page Maintenanace",
+              "slug": "page-maintenance",
+              "newTab": "_blank"
+            }
+          ]
+        },
+        {
+          "url": "page-account-settings",
+          "name": "Account Settings",
+          "i18n": "Account Settings",
+          "slug": "page-account-settings"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "i18n": "Cards",
+      "name": "Cards",
+      "icon": "cast",
+      "slug": "cards",
+      "activate": "Cards",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "cards-basic",
+          "i18n": "Cards",
+          "name": "Cards",
+          "slug": "cards-basic"
+        },
+        {
+          "url": "cards-advance",
+          "i18n": "Cards Advance",
+          "name": "Cards Advance",
+          "slug": "cards-advance"
+        },
+        {
+          "url": "cards-extended",
+          "i18n": "Cards Extended",
+          "name": "Cards Extended",
+          "slug": "cards-extended"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "i18n": "CSS",
+      "name": "CSS",
+      "activate": "CssDropdown",
+      "slug": "css",
+      "icon": "invert_colors",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "css-typography",
+          "i18n": "Typograpy",
+          "name": "Typograpy",
+          "slug": "css-typography"
+        },
+        {
+          "url": "css-color",
+          "i18n": "Color",
+          "name": "Color",
+          "slug": "css-color"
+        },
+        {
+          "url": "css-grid",
+          "i18n": "Grid",
+          "name": "Grid",
+          "slug": "css-grid"
+        },
+        {
+          "url": "css-helpers",
+          "i18n": "Helpers",
+          "name": "Helpers",
+          "slug": "css-helpers"
+        },
+        {
+          "url": "css-media",
+          "i18n": "Media",
+          "name": "Media",
+          "slug": "css-media"
+        },
+        {
+          "url": "css-pulse",
+          "i18n": "Pulse",
+          "name": "Pulse",
+          "slug": "css-pulse"
+        },
+        {
+          "url": "css-sass",
+          "i18n": "Sass",
+          "name": "Sass",
+          "slug": "css-sass"
+        },
+        {
+          "url": "css-shadow",
+          "i18n": "Shadow",
+          "name": "Shadow",
+          "slug": "css-shadow"
+        },
+        {
+          "url": "css-animations",
+          "i18n": "Animations",
+          "name": "Animations",
+          "slug": "css-animations"
+        },
+        {
+          "url": "css-transitions",
+          "i18n": "Transitions",
+          "name": "Transitions",
+          "slug": "css-transitions"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "i18n": "Basic UI",
+      "name": "Basic UI",
+      "activate": "BasicUIDropdown",
+      "slug": "basic-ui",
+      "icon": "photo_filter",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "ui-basic-buttons",
+          "i18n": "Basic Buttons",
+          "name": "Basic Buttons",
+          "slug": "ui-basic-buttons"
+        },
+        {
+          "url": "ui-extended-buttons",
+          "i18n": "Extended Buttons",
+          "name": "Extended Buttons",
+          "slug": "ui-extended-buttons"
+        },
+        {
+          "url": "ui-icons",
+          "i18n": "Icons",
+          "name": "Icons",
+          "slug": "ui-icons"
+        },
+        {
+          "url": "ui-alerts",
+          "i18n": "Alerts",
+          "name": "Alerts",
+          "slug": "ui-alerts"
+        },
+        {
+          "url": "ui-badges",
+          "i18n": "Badges",
+          "name": "Badges",
+          "slug": "ui-badges"
+        },
+        {
+          "url": "ui-breadcrumbs",
+          "i18n": "Breadcrumbs",
+          "name": "Breadcrumbs",
+          "slug": "ui-breadcrumbs"
+        },
+        {
+          "url": "ui-chips",
+          "i18n": "Chips",
+          "name": "Chips",
+          "slug": "ui-chips"
+        },
+        {
+          "url": "ui-collections",
+          "i18n": "Collections",
+          "name": "Collections",
+          "slug": "ui-collections"
+        },
+        {
+          "url": "ui-navbar",
+          "i18n": "Navbar",
+          "name": "Navbar",
+          "slug": "ui-navbar"
+        },
+        {
+          "url": "ui-pagination",
+          "i18n": "Pagination",
+          "name": "Pagination",
+          "slug": "ui-pagination"
+        },
+        {
+          "url": "ui-preloader",
+          "i18n": "Preloader",
+          "name": "Preloader",
+          "slug": "ui-preloader"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "i18n": "Advanced UI",
+      "name": "Advanced UI",
+      "activate": "AdvancedUIDropdown",
+      "slug": "advance-ui",
+      "icon": "settings_brightness",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "advance-ui-carousel",
+          "i18n": "Carousel",
+          "name": "Carousel",
+          "slug": "advance-ui-carousel"
+        },
+        {
+          "url": "advance-ui-collapsibles",
+          "i18n": "Collapsibles",
+          "name": "Collapsibles",
+          "slug": "advance-ui-collapsibles"
+        },
+        {
+          "url": "advance-ui-toasts",
+          "i18n": "Toasts",
+          "name": "Toasts",
+          "slug": "advance-ui-toasts"
+        },
+        {
+          "url": "advance-ui-tooltip",
+          "i18n": "Tooltip",
+          "name": "Tooltip",
+          "slug": "advance-ui-tooltip"
+        },
+        {
+          "url": "advance-ui-dropdown",
+          "i18n": "Dropdown",
+          "name": "Dropdown",
+          "slug": "advance-ui-dropdown"
+        },
+        {
+          "url": "advance-ui-feature-discovery",
+          "i18n": "Discovery",
+          "name": "Discovery",
+          "slug": "advance-ui-feature-discovery"
+        },
+        {
+          "url": "advance-ui-media",
+          "i18n": "Media",
+          "name": "Media",
+          "slug": "advance-ui-media"
+        },
+        {
+          "url": "advance-ui-modals",
+          "i18n": "Modals",
+          "name": "Modals",
+          "slug": "advance-ui-modals"
+        },
+        {
+          "url": "advance-ui-scrollspy",
+          "i18n": "Scrollspy",
+          "name": "Scrollspy",
+          "slug": "advance-ui-scrollspy"
+        },
+        {
+          "url": "advance-ui-tabs",
+          "i18n": "Tabs",
+          "name": "Tabs",
+          "slug": "advance-ui-tabs"
+        },
+        {
+          "url": "advance-ui-waves",
+          "i18n": "Waves",
+          "name": "Waves",
+          "slug": "advance-ui-waves"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "i18n": "Extra Components",
+      "name": "Extra Components",
+      "activate": "ExtraComponentsDropdown",
+      "slug": "extra-components",
+      "icon": "add_to_queue",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "extra-components-range-slider",
+          "i18n": "Range Slider",
+          "name": "Range Slider",
+          "slug": "extra-components-range-slider"
+        },
+        {
+          "url": "extra-components-sweetalert",
+          "i18n": "Sweetalert",
+          "name": "Sweetalert",
+          "slug": "extra-components-sweetalert"
+        },
+        {
+          "url": "extra-components-nestable",
+          "i18n": "Nestable",
+          "name": "Nestable",
+          "slug": "extra-components-nestable"
+        },
+        {
+          "url": "extra-components-treeview",
+          "name": "Treeview",
+          "i18n": "Treeview",
+          "slug": "extra-components-treeview"
+        },
+        {
+          "url": "extra-components-ratings",
+          "name": "Ratings",
+          "i18n": "Ratings",
+          "slug": "extra-components-ratings"
+        },
+        {
+          "url": "extra-components-tour",
+          "name": "Tour",
+          "i18n": "Tour",
+          "slug": "extra-components-tour"
+        },
+        {
+          "url": "extra-components-i18n",
+          "name": "i18n",
+          "i18n": "i18n",
+          "slug": "extra-components-i18n"
+        },
+        {
+          "url": "extra-components-highlight",
+          "i18n": "Highlight",
+          "name": "Highlight",
+          "slug": "extra-components-highlight"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "i18n": "Forms & Tables",
+      "name": "Forms & Tables",
+      "activate": "formsTables",
+      "icon": "chrome_reader_mode",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "table-basic",
+          "i18n": "Basic Tables",
+          "name": "Basic Tables",
+          "slug": "table-basic"
+        },
+        {
+          "url": "table-data-table",
+          "i18n": "Data Tables",
+          "name": "Data Tables",
+          "slug": "table-data-table"
+        },
+        {
+          "url": "javascript:void(0)",
+          "i18n": "Forms",
+          "name": "Forms",
+          "activate": "formsDropdown",
+          "icon": "chevron_right",
+          "dropdown": "1",
+          "submenu": [
+            {
+              "url": "form-elements",
+              "i18n": "Form Elements",
+              "name": "Form Elements",
+              "slug": "form-elements"
+            },
+            {
+              "url": "form-select2",
+              "name": "Form Select2",
+              "i18n": "Form Select2",
+              "slug": "form-select2"
+            },
+            {
+              "url": "form-validation",
+              "i18n": "Form Validation",
+              "name": "Form Validation",
+              "slug": "form-validation"
+            },
+            {
+              "url": "form-masks",
+              "i18n": "Form Masks",
+              "name": "Form Masks",
+              "slug": "form-masks"
+            },
+            {
+              "url": "form-editor",
+              "name": "Form Editor",
+              "i18n": "Form Editor",
+              "slug": "form-editor"
+            },
+            {
+              "url": "form-file-uploads",
+              "i18n": "File Uploads",
+              "name": "File Uploads",
+              "slug": "form-file-uploads"
+            }
+          ]
+        },
+        {
+          "url": "form-layouts",
+          "i18n": "Form Layouts",
+          "name": "Form Layouts",
+          "slug": "form-layouts"
+        },
+        {
+          "url": "form-wizard",
+          "i18n": "Form Wizard",
+          "name": "Form Wizard",
+          "slug": "form-wizard"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "i18n": "Chart",
+      "name": "Chart",
+      "activate": "ChartDropdown",
+      "slug": "chart",
+      "icon": "pie_chart_outlined",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "charts-chartjs",
+          "i18n": "ChartJS",
+          "name": "ChartJS",
+          "slug": "charts-chartjs"
+        },
+        {
+          "url": "charts-chartist",
+          "i18n": "Chartist",
+          "name": "Chartist",
+          "slug": "charts-chartist"
+        },
+        {
+          "url": "charts-sparklines",
+          "i18n": "Sparkline Charts",
+          "name": "Sparkline Charts",
+          "slug": "charts-sparklines"
+        }
+      ]
+    }
+  ]
+}

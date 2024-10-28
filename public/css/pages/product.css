@@ -1,0 +1,30 @@
+/*----------------------------------------
+    Products
+------------------------------------------*/
+/* ---- Product Card ----- */
+/*----------------------------------------
+  Available Layout type names
+-----------------------------------------*/
+/*
+ 1. vertical-modern-menu-template
+ 2. vertical-menu-nav-dark-template
+ 3. vertical-gradient-menu-template
+ 4. vertical-dark-menu-template
+ 5. horizontal-menu-template
+
+/* Need to change Layout name as per your requirement on below mentioned line.*/
+/*
+1. @import "../themes/vertical-gradient-menu-template/variables";
+2. @import "../themes/vertical-gradient-menu-template/theme-variables";
+*/
+.product .card .btn-price {
+  width: 65px;
+  height: 65px;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 65px;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  letter-spacing: 0;
+}

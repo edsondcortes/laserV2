@@ -1,0 +1,40 @@
+/*----------------------------------------
+    Select2
+------------------------------------------*/
+/*----------------------------------------
+  Available Layout type names
+-----------------------------------------*/
+/*
+ 1. vertical-modern-menu-template
+ 2. vertical-menu-nav-dark-template
+ 3. vertical-gradient-menu-template
+ 4. vertical-dark-menu-template
+ 5. horizontal-menu-template
+
+/* Need to change Layout name as per your requirement on below mentioned line.*/
+/*
+1. @import "../themes/vertical-gradient-menu-template/variables";
+2. @import "../themes/vertical-gradient-menu-template/theme-variables";
+*/
+.select2-results .select2-results__options .select2-results__option strong.select2-results__group {
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+.select2-results .select2-results__options .select2-results__option .select2-result-repository {
+  display: flex;
+}
+.select2-results .select2-results__options .select2-results__option .select2-result-repository .select2-result-repository__avatar {
+  margin-right: 1rem;
+}
+.select2-results .select2-results__options .select2-results__option .select2-result-repository .select2-result-repository__avatar img {
+  width: 100px;
+}
+
+.select2-dropdown {
+  z-index: 10 !important;
+}
+
+.select2-search--dropdown .select2-search__field {
+  padding: 0 1rem !important;
+  box-sizing: border-box !important;
+}

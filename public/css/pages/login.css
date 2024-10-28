@@ -1,0 +1,34 @@
+/*----------------------------------------
+/*----------------------------------------
+    Login Page
+------------------------------------------*/
+/*----------------------------------------
+  Available Layout type names
+-----------------------------------------*/
+/*
+ 1. vertical-modern-menu-template
+ 2. vertical-menu-nav-dark-template
+ 3. vertical-gradient-menu-template
+ 4. vertical-dark-menu-template
+ 5. horizontal-menu-template
+
+/* Need to change Layout name as per your requirement on below mentioned line.*/
+/*
+1. @import "../themes/vertical-gradient-menu-template/variables";
+2. @import "../themes/vertical-gradient-menu-template/theme-variables";
+*/
+.login-bg {
+  background-image: url(/images/flat-bg.jpg?1c4729fca1f3648c73442f7d1271ae69);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#login-page .card-panel.border-radius-6.login-card {
+  margin-left: 0 !important;
+}

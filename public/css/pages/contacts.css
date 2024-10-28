@@ -1,0 +1,43 @@
+/*----------------------------------------
+    Contacts Page
+------------------------------------------*/
+/*----------------------------------------
+  Available Layout type names
+-----------------------------------------*/
+/*
+ 1. vertical-modern-menu-template
+ 2. vertical-menu-nav-dark-template
+ 3. vertical-gradient-menu-template
+ 4. vertical-dark-menu-template
+ 5. horizontal-menu-template
+
+/* Need to change Layout name as per your requirement on below mentioned line.*/
+/*
+1. @import "../themes/vertical-gradient-menu-template/variables";
+2. @import "../themes/vertical-gradient-menu-template/theme-variables";
+*/
+.collection .collection-item {
+  border: none;
+}
+
+.collection {
+  border: none;
+}
+
+.collection .collection-item.avatar {
+  min-height: auto !important;
+  padding-left: 5%;
+}
+
+.collection .collection-item.avatar :not(.circle-clipper) > .circle {
+  position: relative !important;
+}
+
+.border-1 {
+  border: 1px solid #e4e4e4 !important;
+}
+
+.contact-hover:hover {
+  box-shadow: 0 6px 10px 2px rgba(0, 0, 0, 0.08), 0 3px 14px 2px rgba(0, 0, 0, 0.08), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+}
